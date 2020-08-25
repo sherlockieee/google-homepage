@@ -1,0 +1,139 @@
+body {
+  font-family: arial, sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.7rem;
+}
+
+li {
+  display: inline;
+  padding: 6px;
+}
+
+.header a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/*Header section */
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  margin: 4px 10px 4px 10px;
+  width: 98%;
+  display: flex;
+  align-items: center;
+}
+#header-divider {
+  width: 83%;
+}
+
+#profile-pic {
+  height: 32 px;
+  width: 32 px;
+  border-radius: 100%;
+  vertical-align: middle;
+}
+
+/* Main section */
+
+.main-wrapper {
+  width: 100%;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.background-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-bar-wrapper {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  padding: 0px 8px 0px 16px;
+  height: 40px;
+  width: 35%;
+  margin-bottom: 10 px;
+}
+i {
+  color: #5f6368;
+}
+
+.material-icons {
+  font-size: 18px;
+}
+input {
+  border: none;
+  margin: 0;
+  padding: 0 5px 0 5px;
+  outline: none;
+  display: flex;
+  flex: 100%;
+  font-size: 16px;
+  color: black;
+}
+
+.button-wrapper {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  border: none;
+  background-color: #f2f2f2;
+  margin-top: 10px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 4px;
+  margin: 10px 10px 10px 10px;
+  color: #5f6368;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  border: 1px #5f6368;
+}
+
+/*Footer section */
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 10px 5px 10px 5px;
+  display: flex;
+  align-items: center;
+}
+
+.footer a {
+  color: #5f6368;
+  text-decoration: none;
+}
+#footer-divider {
+  width: 71%;
+}
